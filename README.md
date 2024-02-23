@@ -92,12 +92,16 @@ To test that it worked, go to you web browser and type "127.0.0.1" and it should
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="721" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/c9ba45e2-630a-4ae9-953f-defc9c5ea598">
+
 </p>
 <p
   
 Now we have this installed, lets [download](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) the installations files needed for osTicket and HeidiSQL.
-  
+
+- From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
 </p>
 <br />
 
