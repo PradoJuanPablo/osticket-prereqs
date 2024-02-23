@@ -28,8 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <ul>
     <li>For this tutorial, we will set up our username and password as such:</li>
       <ul>
-      <li>username: root</li>
-      <li>password: Password1</li>
+      <li>username: Labuser</li>
+      <li>password: Password1234</li>
       </ul>
     </ul>
   <li>Install C++ Redistributable</li>
@@ -39,10 +39,36 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img width="919" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/9145b766-c8ba-4a27-9eda-6a7995cf80a4">
+"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, we will create a Resource Group (RG) in Azure. A resource group is like a folder. We will name this resouce group "RG-osTicket". I used US East as the region to create my RG. Just keep in mind which region you created your RG in because we will be using it with future deployments. 
+</p>
+<br />
+
+<p>
+<img width="829" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/799972dc-ac8d-4b59-a2c6-cca9b937945b">
+
+</p>
+<p>
+Next, we will create our Virtual Machine (VM). A VM is essentially a computer within a computer. I named this VM "VM-osTicket" and set the region as US East as I did with my Resource Group. We will use Windows 10 with 2vCPUs in this instance.
+
+Create a username and password for your VM, we will be using it to log in so take note of your credentials. I set my username to be "Labuser" and my password to "Password1234". This is in no way best practice in the real world, but for demonstration purposes it's fine. 
+
+Now that our VM is created, we will be logging in using Remote Desktop Connection. To do that we need to grab out VM's public IP address
+</p>
+<br />
+
+<p>
+<img width="600" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/093194ae-d92b-4fb2-b4b1-ee70896afb5d">
+
+<img width="450" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/335594e8-c008-4942-8cd2-47d181bec0cb">
+
+</p>
+<p>
+Now that we have our IP, open Remote Desktop Connestion and connect using that IP and your login credentials
 </p>
 <br />
 
@@ -61,3 +87,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
