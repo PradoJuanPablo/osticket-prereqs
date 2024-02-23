@@ -73,10 +73,21 @@ Now that we have our IP, open Remote Desktop Connestion and connect using that I
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/29b1ccab-4a34-4c70-99f9-0598663df4c4">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that we have logged into our machine, we must enable Internet Information Services (IIS). IIS is software that runs on servers and helps host websites and applications on the internet.
+To get there we go to the Control Panel > Programs > Turn Windows Features On or Off > Check the box next to Internet Information Services > Expand and go to World Wide Web Services > Expand again and go to Application Development Features and click the box next to CGI
+
+After all the boxes are checked, click "Ok" and it will begin to install IIS.
+
+  <img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/a6922dfe-c26f-4e4f-b7f5-de6de9729f85">
+
+</p>
+<p>
+To test that it worked, go to you web browser and type "127.0.0.1" and it should return a page that says "Internet Information Services" 
+
 </p>
 <br />
 
