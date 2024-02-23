@@ -19,9 +19,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Microsoft Azure Account
-- Virtual Machine
-- osTicket Installation Files
+<ol>
+  <li>Set up an Azure Virtual Machine (VM) environment (Windows 10 4 vCPUs Recommended)</li>
+  <li><a href = "https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">osTicket Installation Files</a> (Download these files on your Azure Virtual Machine) </li>
+  <li>Enable IIS in I.S.S.</li>
+  <li>Install Web Platform Installer</li>
+  <li>Install MySQL and set up username and password</li>
+    <ul>
+    <li>For this tutorial, we will set up our username and password as such:</li>
+      <ul>
+      <li>username: root</li>
+      <li>password: Password1</li>
+      </ul>
+    </ul>
+  <li>Install C++ Redistributable</li>
+  <li>Configure permissions and install osTicket</li>
+</ol>
 
 <h2>Installation Steps</h2>
 
