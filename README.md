@@ -1,4 +1,4 @@
-<p align="center">
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/e6da78e7-cd49-494f-bb0d-350f52248ee7"><p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -168,7 +168,63 @@ We're going to go back to IIS, restart the server again and go to "Sites" inside
 
 </p>
 <p>
-Next we create a directory C:\PHP
+As you can see, there are some things that are crossed out and to fix that we will go back to IIS > osTicket > PHP Manager > Enable or disable an Extension and enable all of the following extensions
+
+-Enable: php_imap.dll
+
+-Enable: php_intil.dll
+
+-Enable: php_opcache.dll
+
+After this step, refresh the site and see the changes
+  
+</p>
+<br />
+
+<p>
+<img width="721" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/fe2cef9e-6c7b-419c-8b12-39ba39b4982b">
+
+
+</p>
+<p>
+Now that everything is enabled, lets go to c:\inetpub\wwwroot\osticket\include. Here we're looking for a file named "ost-sampleconfig.php". We'll rename it to "ost-config.php". Once completed, lets give everyone permissions.
+
+To do this we right click the file > properties > click "Disable Inheritance" under the Security tab > set a new principal and give full permissions to everyone.
+
+  
+</p>
+<br />
+
+<p>
+
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/9c748d03-5ea3-40b7-800c-7b8459dec786">
+
+
+</p>
+<p>
+Next we're going to install HeidiSQL and set up a database that osTicket will use. HeidiSQL is what allows us to connect to a SQL database.
+
+From the [Installation Files](https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6), download and install [HeidiSQL](https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit).
+
+After it installs, open HeidiSQl, create a new connection to the database so click "new" enter the password which is "Password1" and BOOM! We have our connection to the SQL server
+
+Once there, we need to create a database called "osTicket". In order to do that we must right click "Unnamed" > create new > Databse > Name: osTicket
+
+
+  
+</p>
+<br />
+
+<p>
+<img width="720" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/1b7de0e4-0b8e-4a6b-a6ab-aaec2ceabeda">
+
+
+
+</p>
+<p>
+Return back to the website, enter in your credentials, incluse the name of the SQL datbase we created and click "Install Now!"
+
+And just like that, we've successfully installed osTicket and are ready to start troubleshooting client's problems!
 
   
 </p>
