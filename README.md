@@ -28,8 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <ul>
     <li>For this tutorial, we will set up our username and password as such:</li>
       <ul>
-      <li>username: Labuser</li>
-      <li>password: Password1234</li>
+      <li>username: root</li>
+      <li>password: Password1</li>
       </ul>
     </ul>
   <li>Install C++ Redistributable</li>
