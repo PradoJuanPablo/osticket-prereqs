@@ -170,11 +170,11 @@ We're going to go back to IIS, restart the server again and go to "Sites" inside
 <p>
 As you can see, there are some things that are crossed out and to fix that we will go back to IIS > osTicket > PHP Manager > Enable or disable an Extension and enable all of the following extensions
 
--Enable: php_imap.dll
 
--Enable: php_intil.dll
+- Enable: php_imap.dll
+- Enable: php_intil.dll
+- Enable: php_opcache.dll
 
--Enable: php_opcache.dll
 
 After this step, refresh the site and see the changes
   
