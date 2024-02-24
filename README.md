@@ -1,4 +1,4 @@
-<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/e6da78e7-cd49-494f-bb0d-350f52248ee7"><p align="center">
+
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -226,19 +226,10 @@ Return back to the website, enter in your credentials, incluse the name of the S
 
 And just like that, we've successfully installed osTicket and are ready to start troubleshooting client's problems!
 
-  
-</p>
-<br />
-
-<p>
-<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/42ed11ed-4c2d-45ff-aec3-2aa1ce03cfca">
 
 
-</p>
-<p>
-Next we create a directory C:\PHP
+Hopefully osTicket is up and running without any issues. If there is any, feel free to contact me. Now let us be on our way to the next assignment. [Post Installation Config](https://github.com/fnabeel/osTicket---Post-Install-Configuration)
 
   
-</p>
-<br />
+
 
