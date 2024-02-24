@@ -106,10 +106,83 @@ Now we have this installed, lets [download](https://drive.google.com/drive/u/0/f
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/42ed11ed-4c2d-45ff-aec3-2aa1ce03cfca">
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we create a directory C:\PHP
+
+- From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+- From the Installation Files, download and install VC_redist.x86.exe.
+- From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
+Next we're going to do come configuration inside of IIS.
+
+
+  
+</p>
+<br />
+
+<p>
+<img width="722" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/fc80464c-f8f4-4506-8717-01cf16eb434f">
+
+
+</p>
+<p>
+ We're going to open IIS as Admin, Register PHP and install osTicket. It's recommended to restart the webserver after this step.
+
+  
+</p>
+<br />
+
+<p>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/3fc1f80e-d040-4752-abdb-3e8dd5da6c5f">
+
+
+
+
+</p>
+<p>
+Next, we need to extract the folder named "upload" into the folder c:\inetpub\wwwroot and rename it "osTicket"
+  
+</p>
+<br />
+
+<p>
+<img width="720" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/1631041d-b870-4c53-8c1a-964795f41cd5">
+
+
+</p>
+<p>
+We're going to go back to IIS, restart the server again and go to "Sites" inside of IIS > Default Web Site > osTicket and on the right click "Browse *:80(http)"
+
+  
+</p>
+<br />
+
+<p>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/7712b3da-c7db-49e6-84dc-447d93391903">
+
+
+
+</p>
+<p>
+Next we create a directory C:\PHP
+
+  
+</p>
+<br />
+
+<p>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/osticket-prereqs/assets/160810181/42ed11ed-4c2d-45ff-aec3-2aa1ce03cfca">
+
+
+</p>
+<p>
+Next we create a directory C:\PHP
+
+  
 </p>
 <br />
 
